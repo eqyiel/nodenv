@@ -1,7 +1,3 @@
-if [[ ! -o interactive ]]; then
-    return
-fi
-
 compctl -K _nodenv nodenv
 
 _nodenv() {
